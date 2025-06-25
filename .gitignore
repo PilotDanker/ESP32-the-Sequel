@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.mpy
+
+# Thonny IDE backup/temp files
+*.bak
+*.tmp
+*.log
+
+# Webots generated cache or backup
+*.bak.wbt
+*.wbo~
+*.wbt~
+cache/
+backup/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled ESP32 binaries
+*.bin
+*.elf
+*.map
+
+# Python virtual env (if used)
+venv/
+.env/
