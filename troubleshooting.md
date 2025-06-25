@@ -86,18 +86,20 @@ After booting, the ESP32 prints its IP in the Thonny serial monitor:
 2. Finding the ESP32’s IP Address
    After booting, the ESP32 prints its IP in the Thonny serial monitor:
 
-    Connected to WiFi
-    IP address: xxx.xxx.x.xxx
+    Connected to WiFi IP address: xxx.xxx.x.xxx
 
     Copy that IP into the_sequel_bot.py:
-    ESP32_IP_ADDRESS = "192.168.0.112"
+   
+    ESP32_IP_ADDRESS = "xxx.xxx.x.xxx"
    
 4. Changing the Port (Optional)
 The default is 8080. You can change it in both files — just make sure they match.
 
-ESP32_PORT = 8080
+   ESP32_PORT = 8080
 
-If Webots can’t connect, 90% of the time it’s an IP or port mismatch.
+   If Webots can’t connect, 90% of the time it’s an IP or port mismatch.
+
+
 
 🧹 Still broken?
 Restart Webots and the ESP32
@@ -107,6 +109,3 @@ Check your network connection
 Read the console output — it usually tells you what’s wrong
 
 Take a break. Seriously. It helps.
-
-This guide is just here to keep your sanity intact.
-The robot wants to work — it just needs a little patience (and maybe a reboot).
