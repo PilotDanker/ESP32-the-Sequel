@@ -26,13 +26,13 @@ This is a Hardware-in-the-Loop (HIL) robot simulation using **Webots** and an **
 
 ESP32-the-Sequel/
 ├── controllers/
-│ └── the_sequel_bot.py # Webots controller script
+│   └── the_sequel_bot.py       # Webots controller script
 ├── esp32_code/
-│ └── Dijkstra.py # ESP32-side algorithm (MicroPython)
+│   └── Dijkstra.py             # ESP32-side algorithm (MicroPython)
 ├── world/
-│ ├── RaFLite.wbt # Webots world
-│ └── textures/
-│ └── RaFLite_track.png # Floor texture
+│   ├── RaFLite.wbt             # Webots world
+│   └── textures/
+│       └── RaFLite_track.png   # Floor texture
 ├── .gitignore
 └── README.md
 
